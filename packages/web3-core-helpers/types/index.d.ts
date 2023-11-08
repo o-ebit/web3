@@ -17,9 +17,9 @@
  * @date 2018
  */
 
-import * as net from 'https://deno.land/x/web3/types/net.d.ts';
-import * as http from 'https://deno.land/x/web3/types/http.d.ts';
-import * as https from 'https://deno.land/x/web3/types/http.d.ts';
+import * as net from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/net.d.ts';
+import * as http from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/http.d.ts';
+import * as https from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/http.d.ts';
 
 export class formatters {
   static outputBigNumberFormatter(number: number): number;

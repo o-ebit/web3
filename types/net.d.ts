@@ -15,7 +15,7 @@
 declare module 'net' {
     import * as stream from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/stream';
     import { EventEmitter } from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/events';
-    import { Buffer, BufferEncoding } from 'https://deno.land/x/web3/types/buffer.d.ts';
+    import { Buffer, BufferEncoding } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/buffer.d.ts';
 
     interface AbortSignal {
         /**

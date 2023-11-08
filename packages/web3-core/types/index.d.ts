@@ -18,7 +18,7 @@
  * @date 2018
  */
 
-import * as net from 'https://deno.land/x/web3/types/net.d.ts';
+import * as net from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/net.d.ts';
 import {
   HttpProviderBase,
   HttpProviderOptions,
@@ -27,10 +27,10 @@ import {
   WebsocketProviderOptions,
   JsonRpcPayload,
   JsonRpcResponse,
-} from 'https://deno.land/x/web3@v0.9.2/packages/web3-core-helpers/types/index.d.ts';
-import { Method } from 'https://deno.land/x/web3@v0.9.2/packages/web3-core-method/types/index.d.ts';
-import BN from 'https://deno.land/x/web3/types/bn.d.ts';
-import BigNumber from 'https://deno.land/x/web3/types/bignumber.d.ts';
+} from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core-helpers/types/index.d.ts';
+import { Method } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core-method/types/index.d.ts';
+import BN from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/bn.d.ts';
+import BigNumber from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/bignumber.d.ts';
 
 export interface SignedTransaction {
     messageHash?: string;

@@ -19,10 +19,10 @@
  * @author Josh Stevens <joshstevens19@hotmail.co.uk>
  * @date 2018
  */
-import * as http from 'https://deno.land/x/web3/types/http.d.ts';
-import * as https from 'https://deno.land/x/web3/types/http.d.ts';
+import * as http from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/http.d.ts';
+import * as https from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/http.d.ts';
 
-import { HttpProviderBase, JsonRpcResponse } from 'https://deno.land/x/web3@v0.9.2/packages/web3-core-helpers/types/index.d.ts';
+import { HttpProviderBase, JsonRpcResponse } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core-helpers/types/index.d.ts';
 
 export interface HttpHeader {
     name: string;

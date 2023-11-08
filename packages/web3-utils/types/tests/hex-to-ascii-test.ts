@@ -21,7 +21,7 @@
  */
 
 import BN = require('https://jspm.dev/bn.js');
-import { hexToAscii } from 'https://deno.land/x/web3@v0.9.2/packages/web3-utils/src/index.js';
+import { hexToAscii } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-utils/src/index.js';
 
 // $ExpectType string
 hexToAscii('0x4920686176652031303021');

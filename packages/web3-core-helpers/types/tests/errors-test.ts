@@ -17,7 +17,7 @@
  * @date 2019
  */
 
-import { errors, WebSocketEvent } from 'https://deno.land/x/web3@v0.9.2/packages/web3-core-helpers/src/index.js';
+import { errors, WebSocketEvent } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core-helpers/src/index.js';
 
 // $ExpectType Error
 errors.ErrorResponse(new Error('hey'));

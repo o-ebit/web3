@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import { AbiInput, AbiItem } from 'https://deno.land/x/web3@v0.9.2/packages/web3-utils/types/index.d.ts';
+import { AbiInput, AbiItem } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-utils/types/index.d.ts';
 
 export class AbiCoder {
   encodeFunctionSignature(functionName: string | AbiItem): string;

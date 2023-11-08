@@ -15,14 +15,14 @@ In some months from now (writing this early 2022) it might be possible to just i
 
 ```sh 
 
-deno run --allow-net https://deno.land/x/web3/usage-examples/get-balance.ts https://mainnet.infura.io/v3/<your-project-id>
+deno run --allow-net https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/usage-examples/get-balance.ts https://mainnet.infura.io/v3/<your-project-id>
 
 ```
 
 
 ```ts
 
-import Web3 from 'https://deno.land/x/web3/mod.ts'
+import Web3 from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/mod.ts'
 
 const providerURL = Deno.args[0]
 
@@ -38,13 +38,13 @@ console.log(`the balance is ${balance} wei`)
 
 ```sh 
 
-deno run --allow-net https://deno.land/x/web3/usage-examples/get-transaction.ts https://mainnet.infura.io/v3/<your-project-id>
+deno run --allow-net https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/usage-examples/get-transaction.ts https://mainnet.infura.io/v3/<your-project-id>
 
 ```
 
 ```ts
 
-import Web3 from 'https://deno.land/x/web3/mod.ts'
+import Web3 from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/mod.ts'
 
 const providerURL = Deno.args[0]
 
@@ -63,13 +63,13 @@ console.log(transaction)
 
 ```sh 
 
-deno run --allow-net https://deno.land/x/web3/usage-examples/create-account.ts https://mainnet.infura.io/v3/<your-project-id>
+deno run --allow-net https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/usage-examples/create-account.ts https://mainnet.infura.io/v3/<your-project-id>
 
 ```
 
 ```ts
 
-import Web3 from 'https://deno.land/x/web3/mod.ts'
+import Web3 from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/mod.ts'
 
 const providerURL = Deno.args[0]
 
