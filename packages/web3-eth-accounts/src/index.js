@@ -31,7 +31,7 @@ import * as uuid from 'https://jspm.dev/uuid';
 import utils from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-utils/src/index.js';
 import * as helpers from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core-helpers/src/index.js';
 import { TransactionFactory as TX } from 'https://jspm.dev/@ethereumjs/tx';
-import _Common from 'https://jspm.dev/@ethereumjs/common';
+import { Common as _Common } from 'https://jspm.dev/@ethereumjs/common';
 import { Hardfork as HardForks } from 'https://jspm.dev/@ethereumjs/common';
 import ethereumjsUtil from 'https://jspm.dev/ethereumjs-util';
 import { Buffer } from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/buffer';
