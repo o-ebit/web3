@@ -19,7 +19,7 @@ npm install web3-net
 ## Usage
 
 ```js
-const Web3Net = require('https://deno.land/x/web3@v0.9.2/packages/web3-net/src/index.js');
+const Web3Net = require('https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-net/src/index.js');
 
 const net = new Web3Net('ws://localhost:8546');
 ```

@@ -1,5 +1,5 @@
 
-import Web3 from 'https://deno.land/x/web3/mod.ts'
+import Web3 from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/mod.ts'
 
 const providerURL = Deno.args[0]
 

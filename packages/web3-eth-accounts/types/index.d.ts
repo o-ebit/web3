@@ -17,9 +17,9 @@
  * @date 2018
  */
 
-import { AccountsBase, SignedTransaction, WalletBase } from 'https://deno.land/x/web3@v0.9.2/packages/web3-core/types/index.d.ts';
+import { AccountsBase, SignedTransaction, WalletBase } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core/types/index.d.ts';
 
-export { SignedTransaction } from 'https://deno.land/x/web3@v0.9.2/packages/web3-core/types/index.d.ts';
+export { SignedTransaction } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core/types/index.d.ts';
 
 export class Accounts extends AccountsBase {}
 

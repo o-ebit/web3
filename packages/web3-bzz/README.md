@@ -19,7 +19,7 @@ npm install web3-bzz
 ## Usage
 
 ```js
-const Web3Bzz = require('https://deno.land/x/web3@v0.9.2/packages/web3-bzz/src/index.js');
+const Web3Bzz = require('https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-bzz/src/index.js');
 
 const bzz = new Web3Bzz('http://swarm-gateways.net');
 ```

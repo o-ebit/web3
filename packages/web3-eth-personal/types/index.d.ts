@@ -18,10 +18,10 @@
  * @date 2018
  */
 
-import * as net from 'https://deno.land/x/web3/types/net.d.ts';
+import * as net from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/net.d.ts';
 import {
   provider, RLPEncodedTransaction, TransactionConfig, BatchRequest, Providers, Extension, 
-} from 'https://deno.land/x/web3@v0.9.2/packages/web3-core/types/index.d.ts';
+} from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core/types/index.d.ts';
 
 export class Personal {
   constructor();

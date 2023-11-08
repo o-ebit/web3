@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import { Bzz } from 'https://deno.land/x/web3@v0.9.2/packages/web3-bzz/src/index.js';
+import { Bzz } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-bzz/src/index.js';
 
 // $ExpectType Bzz
 const bzz_empty = new Bzz();

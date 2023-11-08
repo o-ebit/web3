@@ -19,7 +19,7 @@
  * @date 2018
  */
 
-import * as net from 'https://deno.land/x/web3/types/net.d.ts';
+import * as net from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/net.d.ts';
 import {
   BatchRequest,
   Extension,
@@ -37,18 +37,18 @@ import {
   BlockNumber,
   LogsOptions,
   PastLogsOptions,
-} from 'https://deno.land/x/web3@v0.9.2/packages/web3-core/types/index.d.ts';
-import { Subscription } from 'https://deno.land/x/web3@v0.9.2/packages/web3-core-subscriptions/types/index.d.ts';
-import { AbiCoder } from 'https://deno.land/x/web3@v0.9.2/packages/web3-eth-abi/types/index.d.ts';
-import { Accounts } from 'https://deno.land/x/web3@v0.9.2/packages/web3-eth-accounts/types/index.d.ts';
-import { Contract, ContractOptions } from 'https://deno.land/x/web3@v0.9.2/packages/web3-eth-contract/types/index.d.ts';
-import { Ens } from 'https://deno.land/x/web3@v0.9.2/packages/web3-eth-ens/types/index.d.ts';
-import { Iban } from 'https://deno.land/x/web3@v0.9.2/packages/web3-eth-iban/types/index.d.ts';
-import { Personal } from 'https://deno.land/x/web3@v0.9.2/packages/web3-eth-personal/types/index.d.ts';
-import { Network } from 'https://deno.land/x/web3@v0.9.2/packages/web3-net/types/index.d.ts';
-import { AbiItem } from 'https://deno.land/x/web3@v0.9.2/packages/web3-utils/types/index.d.ts';
-import { BigNumber } from 'https://deno.land/x/web3/types/bignumber.d.ts';
-import BN from 'https://deno.land/x/web3/types/bn.d.ts';
+} from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core/types/index.d.ts';
+import { Subscription } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core-subscriptions/types/index.d.ts';
+import { AbiCoder } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-eth-abi/types/index.d.ts';
+import { Accounts } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-eth-accounts/types/index.d.ts';
+import { Contract, ContractOptions } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-eth-contract/types/index.d.ts';
+import { Ens } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-eth-ens/types/index.d.ts';
+import { Iban } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-eth-iban/types/index.d.ts';
+import { Personal } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-eth-personal/types/index.d.ts';
+import { Network } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-net/types/index.d.ts';
+import { AbiItem } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-utils/types/index.d.ts';
+import { BigNumber } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/bignumber.d.ts';
+import BN from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork/types/bn.d.ts';
 
 export {
   TransactionConfig,
@@ -58,7 +58,7 @@ export {
   hardfork,
   Common,
   chain,
-} from 'https://deno.land/x/web3@v0.9.2/packages/web3-core/types/index.d.ts';
+} from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core/types/index.d.ts';
 
 export class Eth {
   constructor();

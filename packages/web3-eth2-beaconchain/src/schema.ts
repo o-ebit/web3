@@ -1,4 +1,4 @@
-import { BaseAPISchema } from 'https://deno.land/x/web3@v0.9.2/packages/web3-eth2-core/src/index.js';
+import { BaseAPISchema } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-eth2-core/src/index.js';
 
 export const DefaultSchema: BaseAPISchema = {
   packageName: 'eth2-beaconchain',

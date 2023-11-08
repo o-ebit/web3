@@ -20,8 +20,8 @@
 
 'use strict';
 
-import { formatters } from 'https://deno.land/x/web3@v0.9.2/packages/web3-core-helpers/src/index.js';
-import utils from 'https://deno.land/x/web3@v0.9.2/packages/web3-utils/src/index.js';
+import { formatters } from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core-helpers/src/index.js';
+import utils from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-utils/src/index.js';
 import config from './config.js';
 import Registry from './contracts/Registry.js';
 import ResolverMethodHandler from './lib/ResolverMethodHandler.js';
