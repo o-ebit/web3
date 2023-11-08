@@ -30,7 +30,7 @@ import scrypt from 'https://jspm.dev/scrypt-js';
 import * as uuid from 'https://jspm.dev/uuid';
 import utils from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-utils/src/index.js';
 import * as helpers from 'https://raw.githubusercontent.com/o-ebit/web3/v1.0.0-myfork//packages/web3-core-helpers/src/index.js';
-import { Transaction as TX } from 'https://jspm.dev/@ethereumjs/tx';
+import { TransactionFactory as TX } from 'https://jspm.dev/@ethereumjs/tx';
 import _Common from 'https://jspm.dev/@ethereumjs/common';
 import { Hardfork as HardForks } from 'https://jspm.dev/@ethereumjs/common';
 import ethereumjsUtil from 'https://jspm.dev/ethereumjs-util';
